@@ -1,0 +1,121 @@
+/* text
+   ========================================================================== */
+.text.center{
+  text-align: center;
+}
+
+.text.justify{
+  text-align: justify;
+}
+
+.text.right{
+  text-align: right;
+}
+
+.text.left{
+  text-align: left;
+}
+
+.text.oblique{
+  font-style: oblique
+}
+
+.text.italic{
+  font-style: italic;
+}
+
+.text.overline{
+  text-decoration: overline;
+}
+
+.text.underline{
+  text-decoration: underline;
+}
+
+.text.line-through{
+  text-decoration: line-through;
+}
+
+.text.strong,
+.text.bold{
+  font-weight: bolder;
+}
+.text.capitalize{
+  text-transform: capitalize;
+}
+.text.lowercase{
+  text-transform: lowercase;
+}
+.text.uppercase{
+  text-transform: uppercase;
+}
+.text.red{
+  color: var(--minion-red-600);
+}
+.text.pink{
+  color: var(--minion-pink-600);
+}
+.text.purple{
+  color: var(--minion-purple-600);
+}
+.text.indigo{
+  color: var(--minion-indigo-600);
+}
+.text.blue{
+  color: var(--minion-blue-600);
+}
+.text.cyan{
+  color: var(--minion-cyan-600);
+}
+.text.teal{
+  color: var(--minion-teal-600);
+}
+.text.green{
+  color: var(--minion-green-600);
+}
+.text.yellow{
+  color: var(--minion-yellow-600);
+}
+.text.orange{
+  color: var(--minion-orange-600);
+}
+.text.brown{
+  color: var(--minion-brown-600);
+}
+.text.dark{
+  color: var(--minion-dark-600);
+}
+.text.light{
+  color: var(--dark-theme-text-color);
+}
+p{
+  margin: 0em 0em 1em;
+  line-height: 1.4285em;
+}
+
+p:first-child{
+  margin-top: 0em;
+}
+
+p:last-child{
+  margin-bottom: 0em;
+}
+pre {
+  font-family: var(--font-family-monospace);
+  font-size: 13px;
+  tab-size: 4;
+    -moz-tab-size: 4;
+  padding: 0.5em;
+  margin: 0 0 9px;
+  line-height: 1.42857143;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: var(--light-theme-text-color);
+  background-color: var(--minion-blue-100);
+  border-radius: 4px;
+  page-break-inside: avoid;
+}
+pre.scrollable {
+  max-height: var(--min-width-desktop);
+  overflow-y: scroll;
+}

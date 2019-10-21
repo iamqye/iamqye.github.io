@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" name="viewport">
+<meta name="author" content="I am Qye">
+<meta name="description" content="Welcome to my Blog">
+
+
+<meta name="generator" content="Hugo 0.58.3" />
+<title>.:: (Hu)go Template Primer ~ I am Qye ::.</title>
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="https://iamqye.github.iofavicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="https://iamqye.github.iofavicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://iamqye.github.iofavicon/favicon-16x16.png">
+		<link rel="manifest" href="https://iamqye.github.iofavicon/site.webmanifest">
+		<link rel="mask-icon" color="#212f3d" href="https://iamqye.github.iofavicon/safari-pinned-tab.svg">
+		<link rel="shortcut icon" href="https://iamqye.github.iofavicon/android-chrome-192x192.png">
+		<meta name="msapplication-config" content="https://iamqye.github.iofavicon/browserconfig.xml">
+		<meta name="msapplication-TileColor" content="#212f3d">
+		<meta name="theme-color" content="#303f9f">
+		<!-- Google Fonts -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mina|Open%20Sans|Poppins|Ubuntu">
+		<!-- Stylesheet -->
+		<link rel="stylesheet" href="https://iamqye.github.io/css/minion.css">
+		<link rel="stylesheet" href="https://iamqye.github.io/css/app.css">
+		<link rel="stylesheet" href="https://iamqye.github.io/css/font-awesome.min.css">
+<link href="" rel="alternate" type="application/rss+xml" title="I am Qye" />
+<link href="" rel="feed" type="application/rss+xml" title="I am Qye" />
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150614423-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+      gtag('config', 'UA-150614423-1');
+    </script>
+
+
+<script data-ad-client="ca-pub-5344786818057722" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+</head>
+<body>
+
+<a href="javascript:void(0)" class="link-to-menu" target="_self" role="menu">
+	<span class="fa fa-photo"></span>
+</a>
+<a href="https://iamqye.github.io" class="link-to-portfolio" target="_self" role="home">
+	<span class="fa fa-home"></span>
+</a>
+<nav id="navbar">
+    <div id="svgNameContainer">
+      <svg id="myName" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 670.23939 334.30332" preserveAspectRatio="xMinyMin meet">
+     <g id="layer2" transform="translate(-37.407 .45385)" >
+      <g fill="none" stroke-width="2px">
+       <path class="letter" id="A1" d="m37.857 214.13 45.357-93.929 45.714 93.929-18.214-37.5h-54.643"  stroke="#fff"  stroke-dasharray="305.2" stroke-dashoffset="305.2"/>
+       <path class="letter" id="L1" d="m145.18 119.48v93.929h30.536" stroke="#02ff00" stroke-dasharray="124.5" stroke-dashoffset="124.5"/>
+       <path class="letter" id="A2" d="m183.86 214.13 45.357-93.929 45.714 93.929-18.214-37.5h-54.643" stroke="#fff" stroke-dasharray="305.2" stroke-dashoffset="305.2"/>
+       <path class="letter" id="N1" d="m289.11 213.66v-93.929l71.25 93.929v-93.929" stroke="#fff" stroke-dasharray="305.8" stroke-dashoffset="305.8"/>
+       <path class="letter" id="M1" d="m425.71 213.2v-93.929l45.714 93.929 45.536-93.929v93.929" stroke="#fff" stroke-dasharray="396.8" stroke-dashoffset="396.8"/>
+       <path class="letter" id="O1" d="m583.39 119.73c12.235-0.0426 24.415 4.9216 33.133 13.507 8.718 8.585 13.869 20.687 14.01 32.922 0.14077 12.207-4.7064 24.398-13.189 33.176-8.4828 8.7788-20.499 14.041-32.704 14.324-12.18 0.28186-24.402-4.3985-33.278-12.745-8.875-8.3462-14.297-20.26-14.758-32.434-0.47612-12.559 4.3467-25.234 13.05-34.301 8.7028-9.0672 21.168-14.405 33.736-14.449z" stroke="#fff" stroke-dasharray="295.1" stroke-dashoffset="295.1"/>
+       <path class="letter" id="I1" d="m649.82 213.66v-93.929" stroke="#fff" stroke-dasharray="94" stroke-dashoffset="94"/>
+       <path class="letter" id="R1" d="m673.39 213.75v-93.929c0.65462-0.0164 1.3097-0.0164 1.9643 0 8.014 0.2005 16.044 2.9878 22.061 8.2847 6.0172 5.2969 9.8575 13.164 9.7245 21.18-0.1319 7.9468-4.1357 15.593-10.11 20.835-5.974 5.2421-13.769 8.1775-21.676 8.9867-0.4857 0.0497-0.97218 0.0918-1.4592 0.12627l32.36 34.52" stroke="#fff" stroke-dasharray="240.5" stroke-dashoffset="240.5" />
+      </g>
+      <g font-size="50px" font-family="&apos;Poiret One&apos;" fill="#dbdbdb">
+       <text id="front" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="271.70639" x="176.99544" sodipodi:linespacing="125%"><tspan id="tspan4301" sodipodi:role="line" x="176.99544" y="271.70639">FRONT</tspan></text>
+       <text class="slash" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="271.70639" x="318.28119" sodipodi:linespacing="125%"><tspan id="tspan4305" sodipodi:role="line" x="318.28119" y="271.70639">/</tspan></text>
+       <text id="end" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="271.70639" x="357.13831" sodipodi:linespacing="125%"><tspan id="tspan4309" sodipodi:role="line" x="357.13831" y="271.70639">END</tspan></text>
+       <text class="slash" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="271.70639" x="441.13831" sodipodi:linespacing="125%"><tspan id="tspan4313" sodipodi:role="line" x="441.13831" y="271.70639">/</tspan></text>
+       <text id="dev" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="271.70639" x="481.28119" sodipodi:linespacing="125%"><tspan id="tspan4317" sodipodi:role="line" x="481.28119" y="271.70639">DEV</tspan></text>
+      </g>
+     </g>
+    </svg>
+    </div>
+
+</nav>
+<div class="mountains"></div>
+  
+<div id="content">
+<div class="container">
+	<div class="invinity">
+	  
+	  <button class="navigation"><span>Main Menu</span><span class="fa fa-cog "></span>
+		
+		<ul class="dropdown">
+		
+			<li><a href="/" class="link-nav">
+					<span class="fa fa-code"></span>
+					<span> Home</span>
+				</a>
+			</li>
+		
+			<li><a href="/posts/" class="link-nav">
+					<span class="fa fa-code"></span>
+					<span> Posts</span>
+				</a>
+			</li>
+		
+			<li><a href="/portfolio/" class="link-nav">
+					<span class="fa fa-code"></span>
+					<span> Portfolio</span>
+				</a>
+			</li>
+		
+			<li><a href="/project/" class="link-nav">
+					<span class="fa fa-code"></span>
+					<span> Project</span>
+				</a>
+			</li>
+		
+			<li><a href="/tags/" class="link-nav">
+					<span class="fa fa-code"></span>
+					<span> Tags</span>
+				</a>
+			</li>
+		
+		</ul>
+		
+	  </button>
+	</div>
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+      
+    
+
+    <h3><a href='/posts/goisforlovers/'>(Hu)go Template Primer</a></h3>
+    <p class="dateandtime">
+		<span class='fa fa-calendar-minus-o'></span> April 2, 2014 
+		<span class='fa fa-clock-o'></span> 7 minutes
+	</p>
+    <p></p>
+
+    
+    
+    <a class='tags indigo' href='/tags/go'>
+		go
+    </a>
+    
+    <a class='tags indigo' href='/tags/golang'>
+		golang
+    </a>
+    
+    <a class='tags indigo' href='/tags/templates'>
+		templates
+    </a>
+    
+    <a class='tags indigo' href='/tags/themes'>
+		themes
+    </a>
+    
+    <a class='tags indigo' href='/tags/development'>
+		development
+    </a>
+    
+
+</div>
+<audio src="https://iamqye.github.iobacksound/dragonborn_comes.mp3" type="application/mp3" autoplay="1" wmode="transparent" width="0" height="0"></audio>
+
+    <br> <div class="text-justify">
+
+<p>Hugo uses the excellent <a href="https://golang.org/">Go</a> <a href="https://golang.org/pkg/html/template/">html/template</a> library for
+its template engine. It is an extremely lightweight engine that provides a very
+small amount of logic. In our experience that it is just the right amount of
+logic to be able to create a good static website. If you have used other
+template systems from different languages or frameworks you will find a lot of
+similarities in Go templates.</p>
+
+<p>This document is a brief primer on using Go templates. The <a href="https://golang.org/pkg/html/template/">Go docs</a>
+provide more details.</p>
+
+<h2 id="introduction-to-go-templates">Introduction to Go Templates</h2>
+
+<p>Go templates provide an extremely simple template language. It adheres to the
+belief that only the most basic of logic belongs in the template or view layer.
+One consequence of this simplicity is that Go templates parse very quickly.</p>
+
+<p>A unique characteristic of Go templates is they are content aware. Variables and
+content will be sanitized depending on the context of where they are used. More
+details can be found in the <a href="https://golang.org/pkg/html/template/">Go docs</a>.</p>
+
+<h2 id="basic-syntax">Basic Syntax</h2>
+
+<p>Golang templates are HTML files with the addition of variables and
+functions.</p>
+
+<p><strong>Go variables and functions are accessible within {{ }}</strong></p>
+
+<p>Accessing a predefined variable &ldquo;foo&rdquo;:</p>
+
+<pre><code>{{ foo }}
+</code></pre>
+
+<p><strong>Parameters are separated using spaces</strong></p>
+
+<p>Calling the add function with input of 1, 2:</p>
+
+<pre><code>{{ add 1 2 }}
+</code></pre>
+
+<p><strong>Methods and fields are accessed via dot notation</strong></p>
+
+<p>Accessing the Page Parameter &ldquo;bar&rdquo;</p>
+
+<pre><code>{{ .Params.bar }}
+</code></pre>
+
+<p><strong>Parentheses can be used to group items together</strong></p>
+
+<pre><code>{{ if or (isset .Params &quot;alt&quot;) (isset .Params &quot;caption&quot;) }} Caption {{ end }}
+</code></pre>
+
+<h2 id="variables">Variables</h2>
+
+<p>Each Go template has a struct (object) made available to it. In hugo each
+template is passed either a page or a node struct depending on which type of
+page you are rendering. More details are available on the
+<a href="/layout/variables">variables</a> page.</p>
+
+<p>A variable is accessed by referencing the variable name.</p>
+
+<pre><code>&lt;title&gt;{{ .Title }}&lt;/title&gt;
+</code></pre>
+
+<p>Variables can also be defined and referenced.</p>
+
+<pre><code>{{ $address := &quot;123 Main St.&quot;}}
+{{ $address }}
+</code></pre>
+
+<h2 id="functions">Functions</h2>
+
+<p>Go template ship with a few functions which provide basic functionality. The Go
+template system also provides a mechanism for applications to extend the
+available functions with their own. <a href="/layout/functions">Hugo template
+functions</a> provide some additional functionality we believe
+are useful for building websites. Functions are called by using their name
+followed by the required parameters separated by spaces. Template
+functions cannot be added without recompiling hugo.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>{{ add 1 2 }}
+</code></pre>
+
+<h2 id="includes">Includes</h2>
+
+<p>When including another template you will pass to it the data it will be
+able to access. To pass along the current context please remember to
+include a trailing dot. The templates location will always be starting at
+the /layout/ directory within Hugo.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>{{ template &quot;chrome/header.html&quot; . }}
+</code></pre>
+
+<h2 id="logic">Logic</h2>
+
+<p>Go templates provide the most basic iteration and conditional logic.</p>
+
+<h3 id="iteration">Iteration</h3>
+
+<p>Just like in Go, the Go templates make heavy use of range to iterate over
+a map, array or slice. The following are different examples of how to use
+range.</p>
+
+<p><strong>Example 1: Using Context</strong></p>
+
+<pre><code>{{ range array }}
+    {{ . }}
+{{ end }}
+</code></pre>
+
+<p><strong>Example 2: Declaring value variable name</strong></p>
+
+<pre><code>{{range $element := array}}
+    {{ $element }}
+{{ end }}
+</code></pre>
+
+<p><strong>Example 2: Declaring key and value variable name</strong></p>
+
+<pre><code>{{range $index, $element := array}}
+    {{ $index }}
+    {{ $element }}
+{{ end }}
+</code></pre>
+
+<h3 id="conditionals">Conditionals</h3>
+
+<p>If, else, with, or, &amp; and provide the framework for handling conditional
+logic in Go Templates. Like range, each statement is closed with <code>end</code>.</p>
+
+<p>Go Templates treat the following values as false:</p>
+
+<ul>
+<li>false</li>
+<li>0</li>
+<li>any array, slice, map, or string of length zero</li>
+</ul>
+
+<p><strong>Example 1: If</strong></p>
+
+<pre><code>{{ if isset .Params &quot;title&quot; }}&lt;h4&gt;{{ index .Params &quot;title&quot; }}&lt;/h4&gt;{{ end }}
+</code></pre>
+
+<p><strong>Example 2: If -&gt; Else</strong></p>
+
+<pre><code>{{ if isset .Params &quot;alt&quot; }}
+    {{ index .Params &quot;alt&quot; }}
+{{else}}
+    {{ index .Params &quot;caption&quot; }}
+{{ end }}
+</code></pre>
+
+<p><strong>Example 3: And &amp; Or</strong></p>
+
+<pre><code>{{ if and (or (isset .Params &quot;title&quot;) (isset .Params &quot;caption&quot;)) (isset .Params &quot;attr&quot;)}}
+</code></pre>
+
+<p><strong>Example 4: With</strong></p>
+
+<p>An alternative way of writing &ldquo;if&rdquo; and then referencing the same value
+is to use &ldquo;with&rdquo; instead. With rebinds the context <code>.</code> within its scope,
+and skips the block if the variable is absent.</p>
+
+<p>The first example above could be simplified as:</p>
+
+<pre><code>{{ with .Params.title }}&lt;h4&gt;{{ . }}&lt;/h4&gt;{{ end }}
+</code></pre>
+
+<p><strong>Example 5: If -&gt; Else If</strong></p>
+
+<pre><code>{{ if isset .Params &quot;alt&quot; }}
+    {{ index .Params &quot;alt&quot; }}
+{{ else if isset .Params &quot;caption&quot; }}
+    {{ index .Params &quot;caption&quot; }}
+{{ end }}
+</code></pre>
+
+<h2 id="pipes">Pipes</h2>
+
+<p>One of the most powerful components of Go templates is the ability to
+stack actions one after another. This is done by using pipes. Borrowed
+from unix pipes, the concept is simple, each pipeline&rsquo;s output becomes the
+input of the following pipe.</p>
+
+<p>Because of the very simple syntax of Go templates, the pipe is essential
+to being able to chain together function calls. One limitation of the
+pipes is that they only can work with a single value and that value
+becomes the last parameter of the next pipeline.</p>
+
+<p>A few simple examples should help convey how to use the pipe.</p>
+
+<p><strong>Example 1 :</strong></p>
+
+<pre><code>{{ if eq 1 1 }} Same {{ end }}
+</code></pre>
+
+<p>is the same as</p>
+
+<pre><code>{{ eq 1 1 | if }} Same {{ end }}
+</code></pre>
+
+<p>It does look odd to place the if at the end, but it does provide a good
+illustration of how to use the pipes.</p>
+
+<p><strong>Example 2 :</strong></p>
+
+<pre><code>{{ index .Params &quot;disqus_url&quot; | html }}
+</code></pre>
+
+<p>Access the page parameter called &ldquo;disqus_url&rdquo; and escape the HTML.</p>
+
+<p><strong>Example 3 :</strong></p>
+
+<pre><code>{{ if or (or (isset .Params &quot;title&quot;) (isset .Params &quot;caption&quot;)) (isset .Params &quot;attr&quot;)}}
+Stuff Here
+{{ end }}
+</code></pre>
+
+<p>Could be rewritten as</p>
+
+<pre><code>{{  isset .Params &quot;caption&quot; | or isset .Params &quot;title&quot; | or isset .Params &quot;attr&quot; | if }}
+Stuff Here
+{{ end }}
+</code></pre>
+
+<h2 id="context-aka-the-dot">Context (aka. the dot)</h2>
+
+<p>The most easily overlooked concept to understand about Go templates is that {{ . }}
+always refers to the current context. In the top level of your template this
+will be the data set made available to it. Inside of a iteration it will have
+the value of the current item. When inside of a loop the context has changed. .
+will no longer refer to the data available to the entire page. If you need to
+access this from within the loop you will likely want to set it to a variable
+instead of depending on the context.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>  {{ $title := .Site.Title }}
+  {{ range .Params.tags }}
+    &lt;li&gt; &lt;a href=&quot;{{ $baseurl }}/tags/{{ . | urlize }}&quot;&gt;{{ . }}&lt;/a&gt; - {{ $title }} &lt;/li&gt;
+  {{ end }}
+</code></pre>
+
+<p>Notice how once we have entered the loop the value of {{ . }} has changed. We
+have defined a variable outside of the loop so we have access to it from within
+the loop.</p>
+
+<h1 id="hugo-parameters">Hugo Parameters</h1>
+
+<p>Hugo provides the option of passing values to the template language
+through the site configuration (for sitewide values), or through the meta
+data of each specific piece of content. You can define any values of any
+type (supported by your front matter/config format) and use them however
+you want to inside of your templates.</p>
+
+<h2 id="using-content-page-parameters">Using Content (page) Parameters</h2>
+
+<p>In each piece of content you can provide variables to be used by the
+templates. This happens in the <a href="/content/front-matter">front matter</a>.</p>
+
+<p>An example of this is used in this documentation site. Most of the pages
+benefit from having the table of contents provided. Sometimes the TOC just
+doesn&rsquo;t make a lot of sense. We&rsquo;ve defined a variable in our front matter
+of some pages to turn off the TOC from being displayed.</p>
+
+<p>Here is the example front matter:</p>
+
+<pre><code>---
+title: &quot;Permalinks&quot;
+date: &quot;2013-11-18&quot;
+aliases:
+  - &quot;/doc/permalinks/&quot;
+groups: [&quot;extras&quot;]
+groups_weight: 30
+notoc: true
+---
+</code></pre>
+
+<p>Here is the corresponding code inside of the template:</p>
+
+<pre><code>  {{ if not .Params.notoc }}
+    &lt;div id=&quot;toc&quot; class=&quot;well col-md-4 col-sm-6&quot;&gt;
+    {{ .TableOfContents }}
+    &lt;/div&gt;
+  {{ end }}
+</code></pre>
+
+<h2 id="using-site-config-parameters">Using Site (config) Parameters</h2>
+
+<p>In your top-level configuration file (eg, <code>config.yaml</code>) you can define site
+parameters, which are values which will be available to you in chrome.</p>
+
+<p>For instance, you might declare:</p>
+
+<pre><code class="language-yaml">params:
+  CopyrightHTML: &quot;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&quot;
+  TwitterUser: &quot;spf13&quot;
+  SidebarRecentLimit: 5
+</code></pre>
+
+<p>Within a footer layout, you might then declare a <code>&lt;footer&gt;</code> which is only
+provided if the <code>CopyrightHTML</code> parameter is provided, and if it is given,
+you would declare it to be HTML-safe, so that the HTML entity is not escaped
+again.  This would let you easily update just your top-level config file each
+January 1st, instead of hunting through your templates.</p>
+
+<pre><code>{{if .Site.Params.CopyrightHTML}}&lt;footer&gt;
+&lt;div class=&quot;text-center&quot;&gt;{{.Site.Params.CopyrightHTML | safeHtml}}&lt;/div&gt;
+&lt;/footer&gt;{{end}}
+</code></pre>
+
+<p>An alternative way of writing the &ldquo;if&rdquo; and then referencing the same value
+is to use &ldquo;with&rdquo; instead. With rebinds the context <code>.</code> within its scope,
+and skips the block if the variable is absent:</p>
+
+<pre><code>{{with .Site.Params.TwitterUser}}&lt;span class=&quot;twitter&quot;&gt;
+&lt;a href=&quot;https://twitter.com/{{.}}&quot; rel=&quot;author&quot;&gt;
+&lt;img src=&quot;/images/twitter.png&quot; width=&quot;48&quot; height=&quot;48&quot; title=&quot;Twitter: {{.}}&quot;
+ alt=&quot;Twitter&quot;&gt;&lt;/a&gt;
+&lt;/span&gt;{{end}}
+</code></pre>
+
+<p>Finally, if you want to pull &ldquo;magic constants&rdquo; out of your layouts, you can do
+so, such as in this example:</p>
+
+<pre><code>&lt;nav class=&quot;recent&quot;&gt;
+  &lt;h1&gt;Recent Posts&lt;/h1&gt;
+  &lt;ul&gt;{{range first .Site.Params.SidebarRecentLimit .Site.Recent}}
+    &lt;li&gt;&lt;a href=&quot;{{.RelPermalink}}&quot;&gt;{{.Title}}&lt;/a&gt;&lt;/li&gt;
+  {{end}}&lt;/ul&gt;
+&lt;/nav&gt;
+</code></pre>
+</div>
+
+    
+    
+
+    
+
+</main>
+
+
+
+
+	</div>
+</div>	
+
+	<div class='cursor' id="cursor"></div>
+	<div class='cursor2' id="cursor2"></div>
+	<div class='cursor3' id="cursor3"></div>
+	<audio src="" type="application/mp3" autoplay="1" wmode="transparent" width="0" height="0"/>
+	
+	
+			<!-- jQuery -->
+		<script src="https://iamqye.github.io/js/jquery.min.js"></script>
+		<script src="https://iamqye.github.io/js/app.js"></script>
+		
+    </body>
+</html>
+

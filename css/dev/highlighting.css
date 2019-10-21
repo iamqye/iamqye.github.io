@@ -1,0 +1,36 @@
+/* Highlighting
+   ========================================================================== */
+   /* Site */
+::-webkit-selection{
+  background-color: rgb(39, 55, 70);
+  color: rgb(255, 255, 255);
+}
+
+::-moz-selection{
+  background-color: rgb(39, 55, 70);
+  color: rgb(255, 255, 255);
+}
+
+::selection{
+  background-color: rgb(39, 55, 70);
+  color: rgb(255, 255, 255);
+}
+
+  /* Form */
+textarea::-webkit-selection,
+input::-webkit-selection{
+  background-color: rgb(39, 55, 70);
+  color: rgb(255, 255, 255);
+}
+
+textarea::-moz-selection,
+input::-moz-selection{
+  background-color: rgb(39, 55, 70);
+  color: rgb(255, 255, 255);
+}
+
+textarea::selection,
+input::selection{
+  background-color: rgb(39, 55, 70);
+  color: rgb(255, 255, 255);
+}
