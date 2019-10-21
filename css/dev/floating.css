@@ -1,9 +1,0 @@
-/* Floating
-   ========================================================================== */
-.float.left{
-  float: var(--floating-left);
-}
-
-.float.right{
-  float: var(--floating-right);
-}
