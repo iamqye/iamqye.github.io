@@ -1,0 +1,38 @@
+
+/* container-full
+   ========================================================================== */
+.container-full{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media only screen and (min-width: 576px){
+  .container-full{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .container-full{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .container-full{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .container-full{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}

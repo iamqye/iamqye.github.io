@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>golang on I am Qye</title>
+    <link>/tags/golang/</link>
+    <description>Recent content in golang on I am Qye</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Oct 2019 05:11:17 +0700</lastBuildDate>
+    
+	<atom:link href="/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install Hugo Di Linux</title>
+      <link>/posts/install-hugo-di-linux/</link>
+      <pubDate>Tue, 22 Oct 2019 05:11:17 +0700</pubDate>
+      
+      <guid>/posts/install-hugo-di-linux/</guid>
+      <description> Install Hugo Hugo adalah salah satu generator situs statis open-source yang paling populer. Dengan kecepatan dan fleksibilitasnya yang luar biasa, Hugo membuat membangun situs web menjadi menyenangkan.
+Instalasi Hugo pada Ubuntu Seperti pada postingan sebelumnya, hanya yang berbeda hanyalah cara instalasi saja. yaitu dengan menggunalan linuxbrew
+sudo apt-get install build-essential curl file git  setelah itu baru jalankan instalasinya.
+brew install hugo  </description>
+    </item>
+    
+    <item>
+      <title>Hugo Tutorial</title>
+      <link>/posts/hugo-tutorial/</link>
+      <pubDate>Tue, 22 Oct 2019 04:42:10 +0700</pubDate>
+      
+      <guid>/posts/hugo-tutorial/</guid>
+      <description>Install Hugo Hugo adalah salah satu generator situs statis open-source yang paling populer. Dengan kecepatan dan fleksibilitasnya yang luar biasa, Hugo membuat membangun situs web menjadi menyenangkan.
+Instalasi Hugo pada windows Jika Anda menggunakan sistem operasi Windows, anda dapat menggunakan Chocolatey untuk manajemen paket, Anda dapat menginstal Hugo dengan satu-baris berikut:
+choco install hugo -confirm  Install Chocolatey di Windows  Pertama, pastikan Anda menggunakan Administrative shell - Anda juga dapat menginstal sebagai non-admin, periksa Instalasi Non-Administrasi.</description>
+    </item>
+    
+  </channel>
+</rss>
