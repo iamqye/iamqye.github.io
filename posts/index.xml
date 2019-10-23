@@ -6,10 +6,20 @@
     <description>Recent content in Posts on I am Qye</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Oct 2019 05:11:17 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 24 Oct 2019 06:27:45 +0700</lastBuildDate>
     
 	<atom:link href="https://iamqye.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Seorang Designer Website</title>
+      <link>https://iamqye.github.io/posts/website_designer/</link>
+      <pubDate>Thu, 24 Oct 2019 06:27:45 +0700</pubDate>
+      
+      <guid>https://iamqye.github.io/posts/website_designer/</guid>
+      <description>Apa itu Desainer Web? Seorang desainer webiste adalah seseorang yang kreatif dan cenderung teknis, serta menggunakan kedua atribut ini untuk membangun atau mendesain ulang sebuah situs web. Perancang web / perancang website memiliki kemampuan untuk memahami apa yang diperlukan untuk membuat situs web fungsional dan mudah digunakan, tetapi pada saat yang sama membuatnya secara estetika menarik bagi pengguna.
+Desain web adalah industri yang relatif baru, telah diciptakan dengan munculnya internet, dan semakin populer khususnya selama sepuluh tahun terakhir, karena media digital telah menjadi bagian utama dari kehidupan banyak orang.</description>
+    </item>
     
     <item>
       <title>Install Hugo Di Linux</title>
